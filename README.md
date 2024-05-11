@@ -14,7 +14,7 @@ These symbols are then fed into an inverse fast Fourier transform (IFFT) to main
 4) Convert parallel data stream to serial data
 5) Add cyclic prefix and transmit it through the air
 ### Wireless Channel
-The channel is noisy, so the received signal at the receiver is a convolution of transmitted signal and channel impulse response added with noise.
+The channel is noisy, so the received signal at the receiver is a convolution of the transmitted signal and channel impulse response added with noise.
 
 ### At Receiver
 1) Remove the cyclic prefix
